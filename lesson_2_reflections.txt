@@ -14,14 +14,35 @@ git diff id_old id_new
 git diff --staged # show what has not been commited [ staging ]-> [commit1]
 git reset --hard [ dump the changes ]
 
-
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+git branch # list branches 
+*master
+git branch easy_mode # create new label/branch
+git checkout easy_mode # jump to that label/branch
+git commit -m "made the game easier"
+-or-
+git checkout -b easy_mode
+
+# keep you product organised
+*master
+*dev
+*exp [ experimental ]
+[ add a new feature : like a context switch ]
+[ you can create multiple branches and work on more than one feature ]
 
 How do the diagrams help you visualize the branch structure?
+git log --graph --oneline master coins
+some branch commits may not be able to reach other branch commits.
+they are not [reachable]
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+git merge # will merge file changes and add auto commit message
+git branch -d coins [ delete the label ]
+
+git show
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
