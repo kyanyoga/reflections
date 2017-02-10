@@ -55,4 +55,19 @@ Adding Account
 create empty repository
 Add remote repository push / pull
 
-# 
+# Git Remote
+git remote
+git remote add origin https://github.com/kyanyoga/reflections.git
+
+# git remote after adding
+git remote
+origin
+git remote -v [ verbose ]
+
+# git push to remote - pushing origin [ remote ] and [ master ] branch
+# if you named it something else it would be lalaorigin and wallybranch.
+
+git push origin master
+
+# if you make changes on another computer or on the web you need to pull them back
+git pull origin master
