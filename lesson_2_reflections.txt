@@ -46,3 +46,7 @@ git show
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+if the changes are simple and don't affect the same functionality - auto can be quite fast and simple.  Most of the time, manual merge is required.
+
+
