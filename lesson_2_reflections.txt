@@ -18,11 +18,12 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 git branch # list branches 
 *master
+
 git branch easy_mode # create new label/branch
 git checkout easy_mode # jump to that label/branch
 git commit -m "made the game easier"
 -or-
-git checkout -b easy_mode
+git checkout -b easy_mode  # to do both at once.
 
 # keep you product organised
 *master
@@ -47,6 +48,9 @@ git show
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-if the changes are simple and don't affect the same functionality - auto can be quite fast and simple.  Most of the time, manual merge is required.
+if the changes are simple and don't affect the same functionality - auto can be quite fast and simple.  Most of the time, manual merge is required
 
-
+# GitHub
+Adding Account
+create empty repository
+Add remote repository push / pull
