@@ -22,9 +22,10 @@ stored locally?
     so you can track changes to revert to a known good state
     git fetch # will update your local remote : origin/master with the current change.
     # this is great to keep up with the most current changes on the remote - github repository.
-    git pull origin master # is the same as
-    git getch origin  # you can run git diff to see the changes
-    git merger master origin/master
+    git pull origin master # is the same as the following two lines.
+    git fetch origin  # you can run git diff to see the changes
+    git merge master origin/master
+    
     # normal commits are fast-forward merges with the ancestry data always available
     # its about reachability
 
