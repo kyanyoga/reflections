@@ -36,4 +36,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    when you want to used the Udacity create branch (utility branch for the feature merge) -> then pull request -> peer review
+    (any updates) -> pull back any other changes -> merge changes -> push a final time (green pull request merge), merge pull.
+    clean up utility branches on localhost and github.
+    
