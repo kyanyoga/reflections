@@ -20,6 +20,11 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
     so you can track changes to revert to a known good state
+    git fetch # will update your local remote : origin/master with the current change.
+    # this is great to keep up with the most current changes on the remote - github repository.
+    git pull origin master # is the same as
+    git getch origin  # you can run git diff to see the changes
+    git merger master origin/master
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
