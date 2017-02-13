@@ -41,3 +41,5 @@ master?  What benefits does each approach have?
     (any updates) -> pull back any other changes -> merge changes -> push a final time (green pull request merge), merge pull.
     clean up utility branches on localhost and github.
     
+    # add 'upstream' to your fork to pull any changes into your master before merging and pull request. see udacity
+    
