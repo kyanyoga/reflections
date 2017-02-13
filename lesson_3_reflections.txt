@@ -25,6 +25,8 @@ stored locally?
     git pull origin master # is the same as
     git getch origin  # you can run git diff to see the changes
     git merger master origin/master
+    # normal commits are fast-forward merges with the ancestry data always available
+    # its about reachability
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
