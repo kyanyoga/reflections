@@ -24,7 +24,10 @@ stored locally?
     # this is great to keep up with the most current changes on the remote - github repository.
     git pull origin master # is the same as the following two lines.
     git fetch origin  # you can run git diff to see the changes
-    git merge master origin/master
+   
+    # git merge master origin/master [ old way ]
+    git push [ push master to origin/master ]
+    # create branch git checkout -b "hotfix" , fix code, add file, commit git push hotfix, pull request.
     
     # normal commits are fast-forward merges with the ancestry data always available
     # its about reachability
