@@ -31,7 +31,7 @@ stored locally?
     # pull request - more work when working in teams.
     # create branch git checkout -b "hotfix" , fix code, add file, commit git push hotfix, pull request.
     # git push origin htfx1  - git push origin "branch name"
-    # do a pull request, approve it if its ok, then delete the hotfix or feature branch on github
+    # do a compare, pull request, approve it if its ok, then delete the hotfix or feature branch on github
     # delete the the hotfix branch on the local repository
     
     # normal commits are fast-forward merges with the ancestry data always available
