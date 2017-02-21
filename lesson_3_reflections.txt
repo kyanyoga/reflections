@@ -34,6 +34,8 @@ stored locally?
     # do a compare, pull request, approve it if its ok, then delete the hotfix or feature branch on github
     # delete the the hotfix branch on the local repository
     
+    # git status - find out where you are right now.
+    
     # normal commits are fast-forward merges with the ancestry data always available
     # its about reachability
 
